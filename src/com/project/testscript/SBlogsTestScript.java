@@ -10,6 +10,8 @@ import com.project.pompages.SBlogs;
 import com.project.utilities.BaseTest;
 import com.project.utilities.ReadExcel;
 
+// This class contains all the test scripts pertaining to Selenium Blogs.	
+
 public class SBlogsTestScript extends BaseTest
 {
 

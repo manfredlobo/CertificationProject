@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Google Chrome Web Browser]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: //a[@data-button-type='Static' and @data-button-name='Login']]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> id: si_popup_email]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> id: si_popup_passwd]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: //button[text()='Login']]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: (//span[@class='webinar-profile-name'])[1]]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> link text: My Profile]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: (//a[@class='profile-edit-icon'])[2]]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> name: companyName]found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> name: userSkill]found]]>
+    </line>
+  </reporter-output>
+  <suite name="CertificationProject" duration-ms="72144" started-at="2019-01-15T18:11:02Z" finished-at="2019-01-15T18:12:14Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="72144" started-at="2019-01-15T18:11:02Z" finished-at="2019-01-15T18:12:14Z">
+      <class name="com.project.testscript.UserProfileTestScript">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:com.project.testscript.UserProfileTestScript@78e67e0a]" name="openApp" is-config="true" duration-ms="23611" started-at="2019-01-15T18:11:02Z" finished-at="2019-01-15T18:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Google Chrome Web Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="updateuserprofile()[pri:0, instance:com.project.testscript.UserProfileTestScript@78e67e0a]" name="updateuserprofile" duration-ms="48517" started-at="2019-01-15T18:11:25Z" finished-at="2019-01-15T18:12:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: //a[@data-button-type='Static' and @data-button-name='Login']]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> id: si_popup_email]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> id: si_popup_passwd]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: //button[text()='Login']]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: (//span[@class='webinar-profile-name'])[1]]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> link text: My Profile]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> xpath: (//a[@class='profile-edit-icon'])[2]]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> name: companyName]found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (f109b01890d57d7141fe945102d30601)] -> name: userSkill]found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateuserprofile -->
+      </class> <!-- com.project.testscript.UserProfileTestScript -->
+    </test> <!-- Regression -->
+  </suite> <!-- CertificationProject -->
+</testng-results>
